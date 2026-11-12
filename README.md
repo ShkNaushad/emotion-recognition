@@ -2,6 +2,12 @@
 
 A real-time facial emotion recognition app built with a Convolutional Neural Network (CNN), TensorFlow/Keras and OpenCV. The model is trained on the FER2013 dataset and used in a live webcam application that detects faces and shows the predicted emotion with confidence scores.
 
+## Demo
+
+| Neutral | Happy |
+|---|---|
+| ![Neutral](screenshots/neutral.png) | ![Happy](screenshots/happy.png) |
+
 ## Features
 
 - CNN trained on **FER2013** (7 emotions, 48x48 grayscale face images)
@@ -33,6 +39,7 @@ emotion-recognition/
 │   ├── emotion_model.keras   # trained model
 │   ├── class_names.json      # emotion labels
 │   └── history.json          # training history (accuracy, loss per epoch)
+├── screenshots/              # demo screenshots used in this README
 ├── app.py                    # live webcam application
 ├── train_model.py            # model training script
 ├── test_face.py              # quick test script
